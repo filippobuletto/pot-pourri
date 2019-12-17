@@ -2,26 +2,23 @@
     "homepage": "https://github.com/corneliusweig/rakkess",
     "description": "Review Access - kubectl plugin to show an access matrix for k8s server resources.",
     "license": "Apache-2.0",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/corneliusweig/rakkess/releases/download/v0.4.1/rakkess-windows-amd64.zip",
-            "hash": "1b7e46f49d7ce6d82167b48cf2c587a65bef77de31738026af71a30d638b50f0"
+            "url": "https://github.com/corneliusweig/rakkess/releases/download/v0.4.2/rakkess-amd64-windows.zip",
+            "hash": "adfe80238be9cb106b0417d820bddb15b944f73e062c7691757d9806ade8490c"
         }
     },
-    "installer": {
-        "script": "Move-Item \"$dir\\out\\rakkess-windows-amd64\" \"$dir\\out\\rakkess-windows-amd64.exe\" -Force"
-    },
-    "bin": [ [ "out\\rakkess-windows-amd64.exe", "rakkess" ] ],
+    "bin": [ [ "out\\rakkess-amd64-windows.exe", "rakkess" ] ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/corneliusweig/rakkess/releases/download/v$version/rakkess-windows-amd64.zip"
+                "url": "https://github.com/corneliusweig/rakkess/releases/download/v$version/rakkess-amd64-windows.zip"
             }
         },
         "hash": {
-            "url": "$baseurl/rakkess-windows-amd64.zip.sha256"
+            "url": "$baseurl/rakkess-amd64-windows.zip.sha256"
         }
     }
 }
