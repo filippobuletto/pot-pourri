@@ -11,7 +11,7 @@
     },
     "bin": [
         [
-            "out\\rakkess-amd64-windows.exe",
+            "rakkess-amd64-windows.exe",
             "rakkess"
         ]
     ],
