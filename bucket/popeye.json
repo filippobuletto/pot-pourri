@@ -2,15 +2,15 @@
     "homepage": "https://github.com/derailed/popeye",
     "description": "A Kubernetes cluster resource sanitizer.",
     "license": "Apache-2.0",
-    "version": "0.8.6",
+    "version": "0.8.8",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/derailed/popeye/releases/download/v0.8.6/popeye_Windows_i386.tar.gz",
-            "hash": "5d443a79e47db82d1667a1e9e03d5c5bffa513f3fdb454582cd0497b5bca2502"
+            "url": "https://github.com/derailed/popeye/releases/download/v0.8.8/popeye_Windows_i386.tar.gz",
+            "hash": "7cd8c1cbc38a5df213ea6ee724283dc7749d56aa722f928c00ef55b922e69c44"
         },
         "64bit": {
-            "url": "https://github.com/derailed/popeye/releases/download/v0.8.6/popeye_Windows_x86_64.tar.gz",
-            "hash": "3927030172ed3891146b565db23457d9d3c003e77faa2c5756e6108081ceff8d"
+            "url": "https://github.com/derailed/popeye/releases/download/v0.8.8/popeye_Windows_x86_64.tar.gz",
+            "hash": "73620eb109f8ceaff5be06b5f0df99ef059d90f47de362d3f4673399d6af4765"
         }
     },
     "bin": "popeye.exe",
