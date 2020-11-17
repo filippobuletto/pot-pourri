@@ -1,0 +1,19 @@
+{
+    "homepage": "https://www.maxon.net/en/cinebench",
+    "description": "Cinebench is a real-world cross-platform test suite that evaluates your computer's hardware capabilities.",
+    "license": "Free",
+    "version": "1",
+    "architecture": {
+        "64bit": {
+            "url": "https://installer.maxon.net/cinebench/CinebenchR23.zip",
+            "hash": "fff6d34b8f696de64a534fc9f0788ec1e9f1bda880a88aed92df8b96d1797c42"
+        }
+    },
+    "bin": "Cinebench.exe",
+    "shortcuts": [
+        [
+            "Cinebench.exe",
+            "Cinebench R23"
+        ]
+    ]
+}
