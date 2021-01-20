@@ -2,11 +2,11 @@
     "homepage": "https://github.com/corneliusweig/rakkess",
     "description": "Review Access - kubectl plugin to show an access matrix for k8s server resources.",
     "license": "Apache-2.0",
-    "version": "0.4.5",
+    "version": "0.4.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/corneliusweig/rakkess/releases/download/v0.4.5/rakkess-amd64-windows.zip",
-            "hash": "98573b8ef04cb842963d9e27b5b1c486803451dfcde51ce12e0d64fbf1960492"
+            "url": "https://github.com/corneliusweig/rakkess/releases/download/v0.4.6/rakkess-amd64-windows.zip",
+            "hash": "32fb5c7b6677e79176c765bad51be5cc221236fc712d896cad4e65f977d93200"
         }
     },
     "bin": [
